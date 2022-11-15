@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  display: flex;
+  margin: 0;
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+.main {
+  width: 100%;
+}
+
+.topbar {
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content {
+  height: 100%;
+}
+
+.icon {
+  height: 8vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2em;
+  cursor: pointer;
+}
+
+.icon ion-icon {
+  font-size: 2em;
+}
+
+.icon p {
+  margin: 0;
+}
+
+.icon:not(:first-of-type) {
+  height: 16vh;
+}
+
+.logo {
+  height: 50%;
+}
+
+.search-wrapper {
+  display: flex;
+  height: 50%;
+  width: 30%;
+}
+
+.search-wrapper input {
+  width: 100%;
+  padding: 0 1em;
+}
+
+.icons-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.top-icon {
+  font-size: 2em;
+  padding: 0 0.5em;
+}
+
+.mic-icon {
+  display: flex;
+  align-items: center;
+}
+
+.search-btn {
+  padding: 0 0.7em;
+  font-size: 1.3em;
+  display: flex;
+  align-items: center;
+}
+
+.epicode-thumb{
+  width: 319.98px;
+  height: 179.53px;
+  display: flex;
+}
+
+.epicode-logo{
+  width: 36px;
+  height: 36px;
+  display: flex;
+}
+
+.thumbnail-h1{
+  font-family: "Roboto","Arial",sans-serif;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-weight: 500;
+    display: flex;
+    margin: 0%;
+}
+
+.thumbnail-p{
+  font-family: "Roboto","Arial",sans-serif;
+    font-size: 0.8rem;
+    line-height: 2rem;
+    font-weight: 500;
+    display: flex;
+    margin: 0%;
+}
+
+.titlebar{
+  display:flex ;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.titlebar-logo{
+  display: flex;
+  align-items: center;
+}
+
+.titlebar-text{
+  display: flex;
+  flex-direction:column;
+  margin-left: 10px;
+}
+
+.th1{
+  font-family: "Roboto","Arial",sans-serif;
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin: 0%;
+}
+
+.tp{
+  display: flex;
+  font-family: "Roboto","Arial",sans-serif;
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin: 0%;
+}
+
+.video1, .video2, .video3, .video4, .video5, .video6{
+  width: 100%;
+  box-sizing:border-box;
+  display: flex;
+  padding: 50px;
+  padding-top: 0%;
+}
+
+.content{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+  justify-content: center;
+}
